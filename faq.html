@@ -12,16 +12,16 @@
 
 <body>
   <header class=" container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="assets/logo1.png" class="logo" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center"  id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse"  id="navbarNav">
+          <ul class="navbar-nav m-auto">
             <li class="nav-item nav-hover">
-              <a class="nav-link text-primary" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active fw-bold text-primary" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item nav-hover">
               <a class="nav-link  text-primary" href="Blogs.html">Blogs</a>
@@ -34,12 +34,13 @@
             </li>
             
           </ul>
-        </div>
-        <div class="  d-flex justify-content-end">
-          <button class="btn btn-success me-3 " data-bs-target="#sign" data-bs-toggle="modal">Sign up</button>
-          <button class="btn btn-primary " data-bs-target="#login" data-bs-toggle="modal">Log In</button>
+          <div class="  d-flex justify-content-end">
+              <button class="btn btn-success me-3 " data-bs-target="#sign" data-bs-toggle="modal">Sign up</button>
+              <button class="btn btn-primary " data-bs-target="#login" data-bs-toggle="modal">Log In</button>
 
-      </div>
+          </div>
+        </div>
+       
       </div>
       
     </nav>
@@ -245,67 +246,67 @@
         
     </body>
     <footer class=" container-fluid bg-body-tertiary mt-5 p-5">
-    
+        
       <div class=" row m-auto">
           <div class=" col-12 col-md-6 col-lg-4">
-              <h1 class=" fs-2 fw-bold m-3">Simplyzenyoga</h1>
+              <h1 class=" fs-2 fw-bold "><img src="assets/logo1.png" class="w-75" alt=""></h1>
               <ul class=" p-2">
                   <li class=" p-2">
                       Address:House no: 3-5-290 ,
                       Kakani Nagar 
                       Visakhapatnam
                       Andhra Pradesh 530040
-                  
+                      
                   </li>
                   <li class=" p-2">
                       Phone number:0891-123456
                   </li>
-              </ul>
-
-
-          </div>
-          <div class="col-6 col-md-6 col-lg-2 mt-5 icon" >
-              
-              <ul>
-                  <li><a href="Aboutus.html">About us</a></li>
-                  <li><a href="#trainer">Trainers</a></li>
-                  <li><a href="Blogs.html">Blog</a></li>
-                  <li><a href="Contactus.html">Contact us</a></li>
-                  <li>Classes</li>
-                  <li>Sign Up</li>
-              </ul>
-
-          </div>
-          <div class=" col-6 col-md-6 col-lg-2 mt-5 icon">
-              <ul>
-                  <li>Gallery</li>
-                  <li><a href="faq.html">FAQ's</a></li>
-                  <li>Articles</li>
-                  <li>Our Team</li>
-                  <li>Testimonials</li>
-                  <li>Log in</li>
-              </ul>
-
-          </div>
-          <div class=" col-6 col-md-6 col-lg-4 mt-3 p-5">
-              <h6>Enter your email address to register to our news letter</h6>
-              <form action="">
-                  <input type="email" class=" form-check form-control" name="" placeholder=" your email" id="">
-                  <div class=" text-end m-3">
-                      <input type="submit" value=" subscribe" class=" btn" >
-                  </div>
-                  <i class="fs-4 m-2 text-primary p-2 bi bi-facebook"></i>
-                  <i class="fs-4 m-2 text-dark bi bi-twitter-x"></i>
-                  <i class="fs-4 m-2 text-secondary bi bi-instagram"></i>
-                  <i class="fs-4 m-2 text-danger p-2 bi bi-youtube"></i>
-              </form>
-              
-              
-          </div>
+          </ul>
           
 
       </div>
-
- 
+      <div class="col-6 col-md-6 col-lg-2 mt-5 icon" >
+          
+          <ul>
+              <li><a href="Aboutus.html">About us</a></li>
+              <li><a href="#trainer">Trainers</a></li>
+              <li><a href="Blogs.html">Blog</a></li>
+              <li><a href="Contactus.html">Contact us</a></li>
+              <li><a href="#video">Classes</a></li>
+              <li><a href="#join">Sign Up</a></li>
+          </ul>
+          
+      </div>
+      <div class=" col-6 col-md-6 col-lg-2 mt-5 icon">
+          <ul>
+              <li>Gallery</li>
+              <li><a href="faq.html">FAQ's</a></li>
+              <li>Articles</li>
+              <li>Our Team</li>
+              <li><a href="#Testimonials">Testimonials</a></li>
+              <li>Log in</li>
+          </ul>
+          
+      </div>
+      <div class="col-lg-4   mt-3 p-3">
+          <h6>Enter your email address to register to our news letter</h6>
+          <form action="">
+              <input type="email" class=" form-check form-control" name="" placeholder=" your email" id="">
+              <div class=" text-end m-3">
+                  <input type="submit" value=" subscribe" class=" btnn" >
+              </div>
+              <i class="fs-4 m-2 text-primary p-2 bi bi-facebook"></i>
+              <i class="fs-4 m-2 text-dark bi bi-twitter-x"></i>
+              <i class="fs-4 m-2 text-secondary bi bi-instagram"></i>
+              <i class="fs-4 m-2 text-danger p-2 bi bi-youtube"></i>
+          </form>
+          
+          
+      </div>
+      
+      
+  </div>
+  
+  
 </footer>
 </html>
