@@ -14,7 +14,9 @@ body{
     color: rgb(123, 123, 255) !important;
     font-weight: bold;
 }
-
+.owl-nav{
+    display: none !important;
+}
 .btnn{
     background-color: rgb(123, 123, 255);
     border: 0;
